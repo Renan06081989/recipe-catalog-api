@@ -17,9 +17,16 @@ npm install
 npm run start:dev
 ```
 
+## 🌐 Acesso à Aplicação
+Após a execução bem-sucedida do projeto, acesse a aplicação no seu navegador preferido através do seguinte endereço: http://localhost:3000
+
 ## 📝 Endpoints
-| Método | Rota         | Descrição          |
-|--------|--------------|--------------------|
-| POST   | /recipes     | Cria nova receita  |
-| GET    | /recipes     | Lista todas        |
-| GET    | /recipes/:id | Busca por ID       |
+| Método | Rota         | Descrição          | curl                                       |
+|--------|--------------|--------------------|------------------------------------------- |
+| POST   | /recipes     | Cria nova receita  |                                            |
+| GET    | /recipes     | Lista todas        | curl http://localhost:3000/recipes | jq    |
+| GET    | /recipes/:id | Busca por ID       | curl http://localhost:3000/recipes/id | jq |
+
+## 📹 Vídeo Demonstrativo
+
+https://www.youtube.com/watch?v=31oeSjbWaDE
