@@ -1,10 +1,25 @@
-# API de Catálogo de Receitas
+# Recipe Catalog API
 
-Uma API simples para gerenciar receitas seguindo Clean Architecture.
+API de catálogo de receitas em NestJS com Clean Architecture
 
-## Como executar
+## 🚀 Funcionalidades
+- Criar/listar/buscar receitas
+- Repositório em memória
 
-1. Clone o repositório
-2. Instale as dependências:
+## 💻 Tecnologias
+- Node.js
+- NestJS
+- TypeScript
+
+## ⚙️ Instalação
 ```bash
 npm install
+npm run start:dev
+```
+
+## 📝 Endpoints
+| Método | Rota         | Descrição          |
+|--------|--------------|--------------------|
+| POST   | /recipes     | Cria nova receita  |
+| GET    | /recipes     | Lista todas        |
+| GET    | /recipes/:id | Busca por ID       |
